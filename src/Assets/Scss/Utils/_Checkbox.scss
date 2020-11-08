@@ -1,0 +1,72 @@
+@import "./Variables";
+
+.custom-checkbox {
+  display: flex;
+  flex-direction: column;
+  label {
+    cursor: pointer;
+    font-size: 0;
+    & + label {
+      margin-top: 30px;
+    }
+    margin: 0;
+  }
+  input {
+    display: none;
+    &:checked {
+      & + span {
+        &:before {
+          border-color: #23a95e;
+        }
+        &:after {
+          display: block;
+          border-color: #23a95e;
+        }
+      }
+    }
+  }
+  span {
+    user-select: none;
+    display: block;
+    position: relative;
+    font-size: 12px;
+    line-height: 28px;
+    padding-left: 35px;
+    color: #333;
+    @media screen and (min-width: 360px) {
+      font-size: 15px;
+      padding-left: 40px;
+    }
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+    }
+    &:before {
+      left: 0;
+      top: 0;
+      height: 28px;
+      border-radius: 4px;
+      width: 28px;
+      transition: all ease-in-out 0.3s;
+      border: 1px solid #ccc;
+      transform: scale(0.7);
+      @media screen and (min-width: 360px) {
+        transform: scale(1);
+      }
+    }
+    &:after {
+      height: 16px;
+      transition: all ease-in-out 0.3s;
+      width: 8px;
+      left: 10px;
+      top: 4px;
+      border: solid transparent;
+      border-width: 0 2px 2px 0;
+      transform: scale(0.7) rotate(45deg);
+      @media screen and (min-width: 360px) {
+        transform: scale(1) rotate(45deg);
+      }
+    }
+  }
+}

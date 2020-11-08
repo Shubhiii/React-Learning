@@ -1,0 +1,28 @@
+.form-control {
+  border-color: #ccc;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  line-height: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 20px;
+  border-radius: 5px;
+  color: #000;
+  height: 60px;
+  &:focus {
+    color: #000;
+    background-color: #fff;
+    border-color: #ccc;
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.form-group {
+  margin-bottom: 0;
+  & + .form-group {
+    margin-top: 30px;
+  }
+}

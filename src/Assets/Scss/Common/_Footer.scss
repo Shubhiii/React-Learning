@@ -1,0 +1,63 @@
+.primary-footer {
+  background-color: #05114d;
+  padding: 50px 0;
+  h3 {
+    font-size: 14px;
+    letter-spacing: 0.41px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  ul {
+    margin-top: 15px;
+    line-height: 1;
+    li {
+      & + li {
+        margin-top: 15px;
+      }
+      a {
+        font-size: 14px;
+        font-weight: 300;
+        color: #71799f;
+        position: relative;
+        line-height: 1;
+        text-transform: capitalize;
+        letter-spacing: 0.41px;
+        &:hover {
+          color: #fff;
+          &:after {
+            width: 100%;
+            transition: width ease-in-out 0.3s;
+          }
+        }
+        &:after {
+          content: "";
+          height: 1px;
+          background-color: #fff;
+          position: absolute;
+          bottom: -2px;
+          left: 0;
+          width: 0;
+          transition: width ease-in-out 0.3s;
+        }
+      }
+    }
+  }
+}
+
+.handcrafted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  font-size: 14px;
+
+  i {
+    opacity: 0.8;
+    font-style: normal;
+  }
+
+  span {
+    margin: 0 5px;
+  }
+}

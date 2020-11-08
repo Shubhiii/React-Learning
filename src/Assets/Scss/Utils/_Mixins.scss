@@ -1,0 +1,24 @@
+@import "./Variables";
+
+@mixin tablet {
+  @media #{$tablet} {
+    @content;
+  }
+}
+
+@mixin tabletLandscape {
+  @media #{$tabletLandscape} {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media #{$desktop} {
+    @content;
+  }
+}
+@mixin desktopLg {
+  @media #{$desktopLg} {
+    @content;
+  }
+}

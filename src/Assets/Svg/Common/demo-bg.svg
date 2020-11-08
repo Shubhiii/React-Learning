@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1170" height="313" viewBox="0 0 1170 313">
+    <defs>
+        <linearGradient id="niuibmslhd" x1="23.862%" x2="55.963%" y1="-4.146%" y2="94.218%">
+            <stop offset="0%" stop-color="#2A34AA"/>
+            <stop offset="100%" stop-color="#2C38BE"/>
+        </linearGradient>
+        <linearGradient id="u8oed7d4of" x1="23.862%" x2="55.963%" y1="-4.042%" y2="94.133%">
+            <stop offset="0%" stop-color="#2A34AA"/>
+            <stop offset="100%" stop-color="#2C38BE"/>
+        </linearGradient>
+        <linearGradient id="sce6ngir2h" x1="23.862%" x2="55.963%" y1="-4.927%" y2="94.855%">
+            <stop offset="0%" stop-color="#2A34AA"/>
+            <stop offset="100%" stop-color="#2C38BE"/>
+        </linearGradient>
+        <path id="myzvpa3idc" d="M1122.044-89.198c-50.68-87.737-177.385-87.736-228.069.004L657.84 319.589C607.155 407.33 670.507 517 771.869 517l472.257-.009c101.363 0 164.717-109.675 114.039-197.415L1122.044-89.198z"/>
+        <path id="e0o7rlmlse" d="M1099.73-102.124c-40.764-70.502-142.678-70.502-183.446.004L726.35 226.366C685.58 296.872 736.539 385 818.069 385l379.859-.007c81.53 0 132.49-88.132 91.726-158.637l-189.923-328.48z"/>
+        <path id="k2whxlbnlg" d="M1069.67-90.162c-27.406-47.785-95.922-47.784-123.33.003L818.647 132.48C791.239 180.27 825.497 240 880.31 240l255.378-.005c54.813 0 89.072-59.734 61.667-107.52L1069.67-90.163z"/>
+        <rect id="26njtxhy7a" width="1170" height="313" x="0" y="0" rx="10"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-138 -6892) translate(138 6892)">
+                <mask id="w7hrqjcl3b" fill="#fff">
+                    <use xlink:href="#26njtxhy7a"/>
+                </mask>
+                <use fill="#4169E1" xlink:href="#26njtxhy7a"/>
+                <g mask="url(#w7hrqjcl3b)" opacity=".2" transform="matrix(1 0 0 -1 0 362)">
+                    <use fill="#4169E1" xlink:href="#myzvpa3idc"/>
+                    <use fill="url(#niuibmslhd)" xlink:href="#myzvpa3idc"/>
+                </g>
+                <g mask="url(#w7hrqjcl3b)" opacity=".1" transform="matrix(1 0 0 -1 0 230)">
+                    <use fill="#4169E1" xlink:href="#e0o7rlmlse"/>
+                    <use fill="url(#u8oed7d4of)" xlink:href="#e0o7rlmlse"/>
+                </g>
+                <g mask="url(#w7hrqjcl3b)" opacity=".1" transform="matrix(1 0 0 -1 0 114)">
+                    <use fill="#4169E1" xlink:href="#k2whxlbnlg"/>
+                    <use fill="url(#sce6ngir2h)" xlink:href="#k2whxlbnlg"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

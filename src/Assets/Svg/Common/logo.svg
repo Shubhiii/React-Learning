@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202" height="44" viewBox="0 0 202 44">
+    <defs>
+        <path id="4mgulxu24a" d="M0.795 0.627L39.26 0.627 39.26 42.735 0.795 42.735z"/>
+        <path id="t00ieaeg6c" d="M0 0.073L8.062 0.073 8.062 17.29 0 17.29z"/>
+        <path id="zfm8otejfe" d="M0 0.682L8.063 0.682 8.063 9.29 0 9.29z"/>
+        <path id="22knz5ixrg" d="M0 43.373L201.16 43.373 201.16 1 0 1z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-133 -23) translate(133 23)">
+                <g transform="translate(13 .373)">
+                    <mask id="9vojx2a2qb" fill="#fff">
+                        <use xlink:href="#4mgulxu24a"/>
+                    </mask>
+                    <path fill="#FFF" d="M35.494 15.157l-23.4-13.51C7.074-1.252.795 2.372.795 8.172V35.19c0 5.8 6.279 9.424 11.3 6.525l23.4-13.51c5.022-2.9 5.022-10.149 0-13.048" mask="url(#9vojx2a2qb)"/>
+                </g>
+                <path fill="#EAEAEA" d="M8.136 13.446L8.136 30.663 51.768 22.054z"/>
+                <g transform="translate(0 13.373)">
+                    <mask id="czzz1xb30d" fill="#fff">
+                        <use xlink:href="#t00ieaeg6c"/>
+                    </mask>
+                    <path fill="#EAEAEA" d="M8.062 17.29L8.062 0.073 -0.001 8.682z" mask="url(#czzz1xb30d)"/>
+                </g>
+                <path fill="#F4F4F4" d="M51.768 22.055L8.136 22.055 8.136 30.663z"/>
+                <g transform="translate(0 21.373)">
+                    <mask id="6f9fr0i1of" fill="#fff">
+                        <use xlink:href="#zfm8otejfe"/>
+                    </mask>
+                    <path fill="#F4F4F4" d="M0 0.682L8.063 9.29 8.063 0.682z" mask="url(#6f9fr0i1of)"/>
+                </g>
+                <mask id="wuux7qh6bh" fill="#fff">
+                    <use xlink:href="#22knz5ixrg"/>
+                </mask>
+                <text fill="#FFF" font-family="Poppins-Bold, Poppins" font-size="22.102" font-weight="bold" mask="url(#wuux7qh6bh)">
+                    <tspan x="59.86" y="28.035">Engage</tspan> <tspan x="145.309" y="28.035" font-family="Poppins-Regular, Poppins" font-weight="normal">Asap</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
